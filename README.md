@@ -11,7 +11,7 @@ A.   Create a new Java project using Spring Initializr, with each of the followi
 
 •    Lombok
 
-
+> Initial set up done through intelliJ's Spring Initializr
 
 Note: Since the application properties will be empty, you will need to copy over the supplied application properties.
 

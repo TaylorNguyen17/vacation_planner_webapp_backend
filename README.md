@@ -11,14 +11,12 @@ Note: Any submissions that do not have a commit after each task will not be eval
 
 Note: You may commit and push whenever you want to back up your changes, even if a task is not complete.
 
-> Initial commit
-
 •    Submit a copy of the git repository URL and a copy of the repository branch history retrieved from your repository, which must include the commit messages and dates.
 
 
 Note: Wait until you have completed all the following prompts before you create your copy of the repository branch history.
 
-
+> Initial commit
 
 C.   Construct four new packages, one for each of the following: controllers, entities, dao, and services. The packages will need to be used for a checkout form and vacations packages list.
 

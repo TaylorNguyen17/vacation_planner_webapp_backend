@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Initial commit to new working branch">
-      <change afterPath="$PROJECT_DIR$/main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/test/java/org/apache/maven/archetypes/main/MainApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -74,6 +70,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MainApplication.executor": "Run",
     "git-widget-placeholder": "working__branch__2",
     "jdk.selected.JAVA_MODULE": "openjdk-22",
     "kotlin-language-version-configured": "true",
@@ -135,7 +132,7 @@
       <workItem from="1715989532759" duration="701000" />
       <workItem from="1715990677417" duration="704000" />
       <workItem from="1715991395394" duration="49000" />
-      <workItem from="1715991450996" duration="349000" />
+      <workItem from="1715991450996" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit - updated README to contain project requirements">
       <option name="closed" value="true" />
@@ -161,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715990819150</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit to new working branch">
+      <option name="closed" value="true" />
+      <created>1715991957371</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715991957371</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

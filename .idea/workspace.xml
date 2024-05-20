@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Initial commit to new working branch">
+    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Task B and C Finished">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Excursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/StatusType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Vacation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +79,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.MainApplication.executor": "Run",
@@ -85,6 +100,11 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -132,7 +152,7 @@
       <workItem from="1715989532759" duration="701000" />
       <workItem from="1715990677417" duration="704000" />
       <workItem from="1715991395394" duration="49000" />
-      <workItem from="1715991450996" duration="659000" />
+      <workItem from="1715991450996" duration="9396000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit - updated README to contain project requirements">
       <option name="closed" value="true" />
@@ -166,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715991957371</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Task B and C Finished">
+      <option name="closed" value="true" />
+      <created>1715992375877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715992375877</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +205,7 @@
     <MESSAGE value="initial commit - updated README to contain project requirements" />
     <MESSAGE value="Task A - Spring Initializr" />
     <MESSAGE value="Initial commit to new working branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit to new working branch" />
+    <MESSAGE value="Task B and C Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task B and C Finished" />
   </component>
 </project>

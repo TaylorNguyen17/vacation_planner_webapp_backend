@@ -6,7 +6,6 @@ import lombok.Setter;
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.springframework.data.annotation.CreatedDate;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -15,6 +14,7 @@ import java.util.Set;
 @Entity
 @Getter
 @Setter
+@Table(name = "carts")
 public class Cart {
 
     @Id

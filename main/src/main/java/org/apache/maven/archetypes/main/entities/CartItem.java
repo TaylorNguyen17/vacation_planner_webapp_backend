@@ -13,6 +13,7 @@ import java.util.Set;
 @Entity
 @Getter
 @Setter
+@Table(name = "cart_items")
 public class CartItem {
 
     @Id

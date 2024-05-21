@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Task D finished">
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CountryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CustomerRepository.java" afterDir="false" />
+    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Reset Maven, added some entities, nonworking build">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CartItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CartItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CountryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CountryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/DivisionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/DivisionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/ExcursionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/ExcursionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/VacationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/VacationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Excursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Excursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Vacation.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Vacation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +60,8 @@
     &quot;second&quot;: &quot;02637177-d851-4566-aba3-9a1ec3a131e3&quot;
   }
 }</component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -75,9 +85,11 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.MainApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "working__branch__2",
     "jdk.selected.JAVA_MODULE": "openjdk-22",
     "kotlin-language-version-configured": "true",
@@ -87,10 +99,12 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "fad58de7366495db4650cfefac2fcd61",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -145,6 +159,7 @@
       <workItem from="1715990677417" duration="704000" />
       <workItem from="1715991395394" duration="49000" />
       <workItem from="1715991450996" duration="13450000" />
+      <workItem from="1716266646240" duration="445000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit - updated README to contain project requirements">
       <option name="closed" value="true" />
@@ -199,6 +214,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

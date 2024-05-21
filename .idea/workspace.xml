@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Second attempt at fixing drop down menu. Remapped some column names, added JsonIgnore to prevent recursiveness due to bidirection. Not working yet.">
+    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Third attempt at fixing drop down menu. Added cors mapping to config, specified crossorigin on controller. Not working yet.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/config/RestDataConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/config/RestDataConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/controllers/CountryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/controllers/CountryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Country.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,7 @@
       <workItem from="1715990677417" duration="704000" />
       <workItem from="1715991395394" duration="49000" />
       <workItem from="1715991450996" duration="13450000" />
-      <workItem from="1716266646240" duration="8849000" />
+      <workItem from="1716266646240" duration="11569000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit - updated README to contain project requirements">
       <option name="closed" value="true" />
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716313454670</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Third attempt at fixing drop down menu. Added cors mapping to config, specified crossorigin on controller. Not working yet.">
+      <created>1716315834625</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716315834625</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +250,7 @@
     <MESSAGE value="Added Table annotation and fixed origin port" />
     <MESSAGE value="Attempt at fixing drop down menu. Not working yet." />
     <MESSAGE value="Second attempt at fixing drop down menu. Remapped some column names, added JsonIgnore to prevent recursiveness due to bidirection. Not working yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Second attempt at fixing drop down menu. Remapped some column names, added JsonIgnore to prevent recursiveness due to bidirection. Not working yet." />
+    <MESSAGE value="Third attempt at fixing drop down menu. Added cors mapping to config, specified crossorigin on controller. Not working yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Third attempt at fixing drop down menu. Added cors mapping to config, specified crossorigin on controller. Not working yet." />
   </component>
 </project>

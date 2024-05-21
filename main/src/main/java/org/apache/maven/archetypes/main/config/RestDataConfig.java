@@ -11,8 +11,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
  * per course instructions include this code to configure the rest api end-points exposed for the project
  * TODO restrict non-used rest api end points
  * <p>
- *
- * @author WGU Course Materials
+ * * @author WGU Course Materials
  * @version 0.1
  * @since 2023-02-27
  */
@@ -42,8 +41,6 @@ public class RestDataConfig implements RepositoryRestConfigurer {
         config.setDefaultPageSize(Integer.MAX_VALUE);
         config.setMaxPageSize(Integer.MAX_VALUE);
 
-
+        cors.addMapping("/api/**").allowedOrigins("http://localhost:4200").allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");
     }
 }
-
-

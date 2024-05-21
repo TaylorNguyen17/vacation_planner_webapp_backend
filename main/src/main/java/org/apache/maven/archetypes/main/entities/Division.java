@@ -8,6 +8,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.util.Date;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -33,9 +34,16 @@ public class Division {
     private Date last_update;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JoinColumn(name = "country_id", nullable = false)
+    @JoinColumn(name = "country_id", nullable = false, insertable = false, updatable = false)
     private Country country;
 
-    @OneToMany(mappedBy = "division", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    private Set<Customer> customers;
+    @OneToMany(mappedBy = "division", cascade = CascadeType.ALL)
+    private Set<Customer> customers = new HashSet<>();
+
+    @Column(name = "country_id")
+    private long country_id;
+    public void setCountry(Country country) {
+        setCountry_id(country.getId());
+        this.country = country;
+    }
 }

@@ -1,5 +1,6 @@
 package org.apache.maven.archetypes.main.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -14,9 +15,11 @@ import java.util.Set;
 @Getter
 @Setter
 @Table(name = "countries")
+@JsonIgnoreProperties({"divisions"})
 public class Country {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "country_id")
     private Long id;
 
     @Column(name = "country")

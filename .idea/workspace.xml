@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Added Table annotation and fixed origin port">
+    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Attempt at fixing drop down menu. Not working yet.">
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/controllers/CountryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/controllers/DivisionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/DivisionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/DivisionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Division.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -144,7 +149,7 @@
       <workItem from="1715990677417" duration="704000" />
       <workItem from="1715991395394" duration="49000" />
       <workItem from="1715991450996" duration="13450000" />
-      <workItem from="1716266646240" duration="1751000" />
+      <workItem from="1716266646240" duration="6784000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit - updated README to contain project requirements">
       <option name="closed" value="true" />
@@ -201,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716267317707</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Attempt at fixing drop down menu. Not working yet.">
+      <created>1716268644338</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716268644338</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +238,7 @@
     <MESSAGE value="Task B and C Finished" />
     <MESSAGE value="Task D finished" />
     <MESSAGE value="Added Table annotation and fixed origin port" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Table annotation and fixed origin port" />
+    <MESSAGE value="Attempt at fixing drop down menu. Not working yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempt at fixing drop down menu. Not working yet." />
   </component>
 </project>

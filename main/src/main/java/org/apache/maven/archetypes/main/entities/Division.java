@@ -1,5 +1,6 @@
 package org.apache.maven.archetypes.main.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,6 +16,7 @@ import java.util.Set;
 @Getter
 @Setter
 @Table(name = "divisions")
+@JsonIgnoreProperties({"countries"})
 public class Division {
 
     @Id
@@ -33,7 +35,7 @@ public class Division {
     @Column(name = "last_update")
     private Date last_update;
 
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "country_id", nullable = false, insertable = false, updatable = false)
     private Country country;
 

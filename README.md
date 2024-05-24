@@ -49,7 +49,8 @@ F.   Write code for the services package that includes each of the following:
 
 •    a checkout service implementation class
 
-
+> Implementation includes updates to entities, config, as well as CheckoutController in order to verify that everything works accordingly
+> Request payload matches entity variables, repositories are checked for matching objects, UUID is generated and set back as a response
 
 G.   Write code to include validation to enforce the inputs needed by the Angular front-end.
 

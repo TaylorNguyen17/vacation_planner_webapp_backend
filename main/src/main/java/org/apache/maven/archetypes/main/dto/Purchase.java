@@ -2,6 +2,7 @@ package org.apache.maven.archetypes.main.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
+import lombok.NonNull;
 import org.apache.maven.archetypes.main.entities.Cart;
 import org.apache.maven.archetypes.main.entities.CartItem;
 import org.apache.maven.archetypes.main.entities.Customer;
@@ -9,6 +10,7 @@ import org.apache.maven.archetypes.main.entities.Customer;
 import java.util.Set;
 
 @Data
+@NonNull
 public class Purchase {
 
     @JsonProperty("customer")

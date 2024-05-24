@@ -84,6 +84,10 @@ public class CheckoutServiceImpl implements CheckoutService {
             // Save the updated customer to the database
             customerRepository.save(existingCustomer);
 
+            // Update cart status and save to the database
+            cart.setStatus(StatusType.ordered);
+            cartRepository.save(cart);
+
             // Debugging step: Verify cart and customer save
             System.out.println("Saved Customer: " + existingCustomer);
             System.out.println("Saved Cart: " + cart);

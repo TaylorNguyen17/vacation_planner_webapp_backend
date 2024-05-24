@@ -45,4 +45,12 @@ public class Excursion {
 
     @ManyToMany(mappedBy = "excursions", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private Set<CartItem> cartItems;
+
+    @Override
+    public String toString() {
+        return "Excursion{" +
+                "id=" + id +
+                ", excursion_title='" + excursion_title + '\'' +
+                '}';
+    }
 }

@@ -1,5 +1,6 @@
 package org.apache.maven.archetypes.main.entities;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -28,6 +29,7 @@ public class Vacation {
     @Column(name = "description")
     private String description;
 
+    @JsonProperty("travel_price")
     @Column(name = "travel_fare_price")
     private BigDecimal travel_price;
 
@@ -44,4 +46,12 @@ public class Vacation {
 
     @OneToMany(mappedBy = "vacation", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private Set<Excursion> excursions;
+
+    @Override
+    public String toString() {
+        return "Vacation{" +
+                "id=" + id +
+                ", vacation_title='" + vacation_title + '\'' +
+                '}';
+    }
 }

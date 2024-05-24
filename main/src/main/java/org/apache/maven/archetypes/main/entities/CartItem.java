@@ -44,4 +44,12 @@ public class CartItem {
             inverseJoinColumns = @JoinColumn(name = "excursion_id")
     )
     private Set<Excursion> excursions;
+
+    @Override
+    public String toString() {
+        return "CartItem{" +
+                "vacation=" + vacation +
+                ", excursions=" + excursions +
+                '}';
+    }
 }

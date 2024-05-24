@@ -1,5 +1,6 @@
 package org.apache.maven.archetypes.main.entities;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -22,9 +23,11 @@ public class Customer {
     @Column(name = "customer_id")
     private Long id;
 
+    @JsonProperty("firstName")
     @Column(name = "customer_first_name")
     private String firstName;
 
+    @JsonProperty("lastName")
     @Column(name = "customer_last_name")
     private String lastName;
 
@@ -51,6 +54,17 @@ public class Customer {
 
     @OneToMany(mappedBy = "customer", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private Set<Cart> carts = new HashSet<>();
+
+    @Override
+    public String toString() {
+        return "Customer{id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address='" + address + '\'' +
+                ", postal_code='" + postal_code + '\'' +
+                ", phone='" + phone + '\'' +
+                ", division=" + division + '}';
+    }
 
     public void add(Cart cart) {
         if(cart != null) {

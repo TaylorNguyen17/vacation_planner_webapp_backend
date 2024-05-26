@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Readme updated for Task F">
+    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Readme updated for Task G">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Excursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Excursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Vacation.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/entities/Vacation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/services/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/services/CheckoutServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716535063912</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Task G Completed - NonNull and nullable=false added to DTOs and entities to match Angular requirements; Readme updated">
+      <created>1716579840732</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716579840733</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Readme updated for Task G">
+      <created>1716579921381</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716579921381</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +279,8 @@
     <MESSAGE value="Third attempt at fixing drop down menu. Added cors mapping to config, specified crossorigin on controller. Not working yet." />
     <MESSAGE value="Task F completed - Added checkout controller, purchase, purchase response, and checkout service. Updated entities and config to work with new services and controllers. Included console debug lines." />
     <MESSAGE value="Readme updated for Task F" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme updated for Task F" />
+    <MESSAGE value="Task G Completed - NonNull and nullable=false added to DTOs and entities to match Angular requirements; Readme updated" />
+    <MESSAGE value="Readme updated for Task G" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme updated for Task G" />
   </component>
 </project>

@@ -62,6 +62,7 @@ H.   Write code for the controllers package that includes a REST controller chec
 
 Note: You do not need to duplicate REST functionality for each repository by creating methods in Java.
 
+> CheckoutController was implemented earlier as a part of task F.
 
 I.   Add five sample customers to the application programmatically.
 

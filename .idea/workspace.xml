@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Readme updated for Task G">
+    <list default="true" id="d7399b32-2fbe-4b88-b8fe-5e4ee7ae2bd1" name="Changes" comment="Task H finished - CheckoutController implemented already; README updated">
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/config/BootstrapDataLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/controllers/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/controllers/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/dao/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/services/CheckoutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/org/apache/maven/archetypes/main/services/CheckoutServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716579921381</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Task H finished - CheckoutController implemented already; README updated">
+      <created>1716682820334</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716682820334</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +292,7 @@
     <MESSAGE value="Readme updated for Task F" />
     <MESSAGE value="Task G Completed - NonNull and nullable=false added to DTOs and entities to match Angular requirements; Readme updated" />
     <MESSAGE value="Readme updated for Task G" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme updated for Task G" />
+    <MESSAGE value="Task H finished - CheckoutController implemented already; README updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task H finished - CheckoutController implemented already; README updated" />
   </component>
 </project>

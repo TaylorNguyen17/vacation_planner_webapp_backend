@@ -38,16 +38,21 @@ public class CheckoutServiceImpl implements CheckoutService {
         // retrieve the order info from dto
         Cart cart = purchase.getCart();
 
+        // check if the cart is empty
+        Set<CartItem> cartItems = purchase.getCartItems();
+        if(cartItems == null || cartItems.isEmpty()) {
+            return new PurchaseResponse("Cart is empty");
+        }
+
         // Debugging step: Print cart details before any processing
-        System.out.println("Received Cart: " + cart);
-        System.out.println("Received Cart Items: " + purchase.getCartItems());
+//        System.out.println("Received Cart: " + cart);
+//        System.out.println("Received Cart Items: " + purchase.getCartItems());
 
         // generate tracking number
         String orderTrackingNumber = generateOrderTrackingNumber();
         cart.setOrderTrackingNumber(orderTrackingNumber);
 
         // Populate cart with cartItems
-        Set<CartItem> cartItems = purchase.getCartItems();
         for (CartItem item : cartItems) {
             // Fetch the managed instance of Vacation
             Vacation managedVacation = vacationRepository.findById(item.getVacation().getId()).orElseThrow(
@@ -70,8 +75,11 @@ public class CheckoutServiceImpl implements CheckoutService {
         }
 
         // Debugging step: Print cart details after adding cartItems
-        System.out.println("Cart after adding items: " + cart);
-        System.out.println("Cart Items after adding items: " + cart.getCartItems());
+//        System.out.println("Cart after adding items: " + cart);
+//        System.out.println("Cart Items after adding items: " + cart.getCartItems());
+
+        // Set cart status before saving
+        cart.setStatus(StatusType.ordered);
 
         // Fetch the existing customer from the repository
         Customer customer = purchase.getCustomer();
@@ -84,13 +92,9 @@ public class CheckoutServiceImpl implements CheckoutService {
             // Save the updated customer to the database
             customerRepository.save(existingCustomer);
 
-            // Update cart status and save to the database
-            cart.setStatus(StatusType.ordered);
-            cartRepository.save(cart);
-
             // Debugging step: Verify cart and customer save
-            System.out.println("Saved Customer: " + existingCustomer);
-            System.out.println("Saved Cart: " + cart);
+//            System.out.println("Saved Customer: " + existingCustomer);
+//            System.out.println("Saved Cart: " + cart);
         } else {
             throw new RuntimeException("Customer with ID " + customer.getId() + " not found");
         }

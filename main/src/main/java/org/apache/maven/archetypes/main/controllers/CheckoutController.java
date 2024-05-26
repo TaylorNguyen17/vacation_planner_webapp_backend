@@ -21,7 +21,7 @@ public class CheckoutController {
     @PostMapping("/purchase")
     public PurchaseResponse placeOrder(@RequestBody Purchase purchase) {
         // Debugging step
-        System.out.println("Received Purchase: " + purchase);
+//        System.out.println("Received Purchase: " + purchase);
         return checkoutService.placeOrder(purchase);
     }
 
